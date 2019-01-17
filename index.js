@@ -8,7 +8,7 @@ function upperCaseCustomerName(){
 }
 
 function setBestCustomer(){
-  bestCustomer = 'not bob';
+  bestCustomer = 'not bob';   //var does not show error if the variable is again declare. When I dont write anything the default is var.
 }
 
 function overWriteBestCustomer(){
@@ -17,4 +17,9 @@ function overWriteBestCustomer(){
 
 function changeLeastFavoriteCustomer(){
     leastFavoriteCustomer = 'Rose';
+}
+
+function attemptTwoFavoriteCustomers(){
+  let favoriteCustomer = 'bar'
+    let favoriteCustomer = 'not bar'
 }
