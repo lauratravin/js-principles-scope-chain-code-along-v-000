@@ -8,5 +8,5 @@ function upperCaseCustomerName(){
 }
 
 function setBestCustomer(){
- return bestCustomer  = 'not bob'; // this is supose no happen.
+  bestCustomer = 'not bob';
 }
